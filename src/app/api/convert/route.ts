@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
 
     const response = JSON.parse(stdout);
 
-    return NextResponse.json(response, {status: 200});
+    return NextResponse.json(response, { status: 200 });
   } catch (err: unknown) {
     console.error("Error processing request:", err);
     return new NextResponse("Internal Server Error", {
