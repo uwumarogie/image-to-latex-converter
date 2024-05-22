@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { sendFileToServer } from "@/app/_utils/handleInput";
+import { sendFileToServer } from "@/app/_utils/send-form-data";
 import { DragAndDropArea } from "@/app/_components/drag-and-drop-area";
 import { CloudUploadIcon } from "../../../public/cloud-upload-icon";
 import { UploadStatus } from "@/app/_components/upload-status";
