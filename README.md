@@ -1,8 +1,8 @@
-# Project Name: Image To LaTeX Converter
+# Image To LaTeX Converter
 
 ## Description
 
-This application allows users to upload an image of a mathematical formula and converts it into LaTeX using the Mathpix API.
+This application allows you to upload an image of a mathematical formula and converts it into LaTeX.
 
 ## Installation
 
