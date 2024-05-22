@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name: Image To LaTeX Converter
+## Description
 
-## Getting Started
+This application allows users to upload an image of a mathematical formula and converts it into LaTeX using the Mathpix API.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To get started with the project, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+    git clone https://github.com/uwumarogie/image-to-latex-converter.git
+    cd image-to-latex-converter
+    ```
+   
+2. **Environment Variables**
+   The application uses the following environment variables:  
+   You can set these variables in a .env.local file in the root of your project:
+   ```env
+   MATHPIX_APP_ID: Your Mathpix application ID.
+   MATHPIX_APP_KEY: Your Mathpix application key.
+   ```
+3. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    pnpm install
+    ```
 
-## Learn More
+4. **Start the development server:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    pnpm dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### File Upload
+Just upload your file via Drag and Drop or by clicking on the upload button.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions to enhance this project. To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git switch -c feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a pull request.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out to us at [uwumarogiephillips@gmail.com](mailto:uwumarogiephillips@gmail.com).
+
