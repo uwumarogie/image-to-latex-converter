@@ -17,10 +17,10 @@ To get started with the project, follow these steps:
 
 2. **Environment Variables**
    The application uses the following environment variables:  
-   You can set these variables in a .env.local file in the root of your project:
+   You can set these variables in a .env file in the root of your project:
    ```env
-   MATHPIX_APP_ID: Your Mathpix application ID.
-   MATHPIX_APP_KEY: Your Mathpix application key.
+   MATHPIX_APP_ID=Your Mathpix application ID.
+   MATHPIX_APP_KEY=Your Mathpix application key.
    ```
 3. **Install dependencies:**
 
