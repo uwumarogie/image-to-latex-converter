@@ -61,7 +61,7 @@ export function UploadForm() {
   if (!file) {
     return (
       <React.Fragment>
-        <Card className="border-dashed">
+        <Card className="border-dashed mb-6">
           <CardContent className="p-6">
             <UploadArea
               onClick={() => fileInputRef.current?.click()}
